@@ -1,0 +1,27 @@
+{
+  "name": "StockMind — RFID Inventory",
+  "short_name": "StockMind",
+  "description": "RFID inventory scanner for textbooks",
+  "start_url": "/scan",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
+  "background_color": "#0d0d0d",
+  "theme_color": "#0d0d0d",
+  "orientation": "portrait",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/robokorda-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/robokorda-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
